@@ -3,6 +3,9 @@
 This is a single web page site, it is a practice project in an introductory javascript course.
 <br>
 <h2>Features</h2>
+Increment, decrement, reset, and save previous counts.
+<br>
+<h2>What I learnt</h2>
 <li>Build customized functions.</li>
 <li>Use interactive buttons.</li>
 <br><br>
