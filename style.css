@@ -1,0 +1,71 @@
+#main-ui {
+    width: 80%;
+    border: solid 4px black;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px 20px;
+}
+
+body {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background-image: url("./abacus.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#keypad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+button {
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#increment-btn {
+    background-color: #1b943b;
+}
+
+#decrement-btn {
+    background-color: #94271b;
+}
+
+#save-btn {
+    background-color: #1b5594;
+}
+
+#reset-btn {
+    background-color: #90941b;
+}
+
+.reference {
+    display: inline;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 12px
+}
